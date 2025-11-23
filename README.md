@@ -13,7 +13,6 @@ The model classifies potato leaf images into:
 ## 🚀 Project Structure
 
     Potato-Disease-Classification/
-    │-- dataset/
     │-- training/
     │   └── Training.ipynb
         ├── PlantVillageDataset
@@ -22,15 +21,6 @@ The model classifies potato leaf images into:
     │   ├── model/
     │   │    └── potatoes.h5
     │-- frontend/
-    │   └── potato-app/
-    │        ├── src/
-    │        │   ├── components/
-    │        │   │    └── Upload.js
-    │        │   ├── App.js
-    │        │   ├── index.js
-    │        └── package.json
-    │-- models/
-    │-- requirements.txt
     │-- README.md
 
 ## Features
