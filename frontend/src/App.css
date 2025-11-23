@@ -1,0 +1,103 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+
+  /* 🌿 Light green background */
+  background: #e7f8e9;  /* very light green */
+
+  /* If you want even lighter, use: #f1fff3 */
+}
+
+.app-container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #2e5f2c;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-top: -5px;
+  color: #3b5c38;
+}
+
+.card {
+  width: 420px;
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.upload-box {
+  display: block;
+  padding: 18px;
+  border: 2px dashed #8bc34a;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.upload-box:hover {
+  background: #e0ffd6;
+}
+
+.upload-text {
+  color: #4caf50;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.image-preview img {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 15px;
+  border: 3px solid #e0e0e0;
+}
+
+.predict-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.predict-btn:hover {
+  background: #43a047;
+}
+
+.predict-btn:disabled {
+  background: #9ccc65;
+  cursor: not-allowed;
+}
+
+.result-box {
+  margin-top: 25px;
+  padding: 20px;
+  background: #e8f5e9;
+  border-left: 6px solid #4caf50;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.result-box h3 span {
+  color: #2e7d32;
+  font-weight: 600;
+}
